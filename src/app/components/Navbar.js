@@ -16,10 +16,10 @@ function Navbar(props) {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex flex-wrap justify-between items-center mx-auto px-4 py-2">
-        <Link className="text-2xl md:text-5xl text-white font-semibold" href={"/"}>
+      <div className="flex flex-wrap justify-end items-center mx-auto px-4 py-4">
+        {/* <Link className="text-2xl md:text-5xl text-white font-semibold" href={"/"}>
           LOGO
-        </Link>
+        </Link> */}
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button onClick={() => setNavbarOpen(true)} className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
