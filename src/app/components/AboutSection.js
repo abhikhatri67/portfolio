@@ -57,9 +57,9 @@ function AboutSection() {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm a Principal Software Engineer with over 7+ years of experience, currently leading innovative projects at GoGroup in Noida, India. My expertise spans frontend (JavaScript, ReactJS) and backend (Ruby on Rails, AWS) development. I've
-            spearheaded the development of a green energy provider portal and the "heyport" port call coordination tool, showcasing strong project management and mentorship skills. Previously at Smart Joules, I led the creation of JouleTrack and
-            expanded the front-end team significantly. I hold a Bachelor's degree in Technology from DIT University.
+            I'm a Principal Software Engineer with over 7+ years of experience, currently leading innovative projects at GoGroup in Noida, India. My expertise spans frontend (JavaScript, ReactJS and Angular) and backend (Ruby on Rails, NodeJS,
+            GraphQL and AWS) development. I've spearheaded the development of a green energy provider portal and the "heyport" port call coordination tool, showcasing strong project management and mentorship skills. Previously at Smart Joules, I led
+            the creation of JouleTrack and expanded the front-end team significantly. I hold a Bachelor's degree in Technology from DIT University.
           </p>
           <div className="flex flex-row mt-8 justify-start">
             {TAB_DATA.map(tab => (
