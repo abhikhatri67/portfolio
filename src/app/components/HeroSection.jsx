@@ -14,7 +14,7 @@ function HeroSection() {
           <TypeAnimation sequence={["Abhishek", 1000, "Software Developer", 1000]} wrapper="span" speed={50} repeat={Infinity} />
         </h1>
         <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I am a Principal Software Engineer with 7+ years of experience in frontend development, specializing in ReactJS, Redux, and Angular, with a proven ability to lead projects and grow teams!
+          I am a Principal Software Engineer with 7+ years of experience in frontend development, specializing in ReactJS, Redux, and Angular with a proven ability to lead projects and grow teams!
         </p>
         <div>
           <button
