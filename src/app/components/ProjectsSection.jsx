@@ -14,6 +14,15 @@ const PROJECTS = [
     id: 1,
   },
   {
+    title: "Countries App",
+    imgUrl: "/images/Project-countries-app.png",
+    tags: ["All", "Web"],
+    description: "Developed a Countries App using HTML, CSS, and JavaScript, featuring dynamic country data display, search functionality, and responsive design for an interactive user experience.",
+    gitUrl: "https://github.com/abhikhatri67/Countries-App",
+    previewUrl: "https://countries-app-challenge.netlify.app",
+    id: 4,
+  },
+  {
     title: "URL Shortner",
     imgUrl: "/images/Project-shortly.png",
     tags: ["All", "Web"],
@@ -32,18 +41,27 @@ const PROJECTS = [
     id: 3,
   },
   {
-    title: "Countries App",
-    imgUrl: "/images/Project-countries-app.png",
-    tags: ["All", "Web"],
-    description: "Developed a Countries App using HTML, CSS, and JavaScript, featuring dynamic country data display, search functionality, and responsive design for an interactive user experience.",
-    gitUrl: "https://github.com/abhikhatri67/Countries-App",
-    previewUrl: "https://countries-app-challenge.netlify.app",
-    id: 4,
+    title: "Books Rest",
+    imgUrl: "",
+    tags: ["All"],
+    description: "Developed a book management system using Node.js, Express, and MongoDB.",
+    gitUrl: "https://github.com/abhikhatri67/book-rest",
+    previewUrl: "/",
+    id: 3,
+  },
+  {
+    title: "Books GraphQL",
+    imgUrl: "",
+    tags: ["All"],
+    description: "Developed a book management system using Node.js and GraphQL.",
+    gitUrl: "https://github.com/abhikhatri67/GraphQL-Books",
+    previewUrl: "/",
+    id: 3,
   },
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Web");
 
   const handleTagChange = newTag => {
     setTag(newTag);
@@ -55,8 +73,8 @@ const ProjectsSection = () => {
     <div className="text-white" id="projects">
       <h2 className="text-center mt-4 mb-4 text-4xl font-bold">My Projects</h2>
       <div className="text-center flex flex-row justify-center gap-2 py-6">
-        <ProjectTag onClick={handleTagChange} tag="All" isSelected={tag == "All"} />
         <ProjectTag onClick={handleTagChange} tag="Web" isSelected={tag == "Web"} />
+        <ProjectTag onClick={handleTagChange} tag="All" isSelected={tag == "All"} />
       </div>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map(project => (
