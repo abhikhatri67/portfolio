@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "info": "Piyush Agarwal",
+    "description": "Btech from DIT University, Experienced Software Engineer. I currently live in Bilaspur."
+  },
+  {
+    "id": 2,
+    "info": "Education",
+    "description": "Btech from DIT University"
+  },
+  {
+    "id": 3,
+    "info": "Profession",
+    "description": "Software Engineer"
+  },
+  {
+    "id": 5,
+    "info": "Twitter",
+    "description": "@abhikhatri67"
+  },
+  {
+    "id": 6,
+    "info": "Personal Project",
+    "description": "Made a Chat App using MERN Stack, Code for that project - https://github.com//mern-chat-app"
+  }
+]

@@ -5,13 +5,22 @@ import ProjectTag from "./ProjectTag";
 
 const PROJECTS = [
   {
+    title: "Netflix GPT",
+    imgUrl: "/images/Netflix-gpt.webp",
+    tags: ["All", "Web", "Mobile"],
+    description: "Developed a Netflix clone using React, Redux, and Firebase, featuring GPT-based search functionality for movies, user authentication, and a responsive, dynamic UI.",
+    gitUrl: "https://github.com/abhikhatri67/netflix-gtp",
+    previewUrl: "https://abhishekkhatri-gpt.netlify.app",
+    id: 1,
+  },
+  {
     title: "Portfolio",
     imgUrl: "/images/portfolio.png",
     tags: ["All", "Web"],
     description: "Created a personal portfolio using Next.js and Tailwind CSS, featuring a modern, responsive design and optimized performance for showcasing projects and skills.",
     gitUrl: "https://github.com/abhikhatri67/portfolio",
     previewUrl: "https://abhishek-khatri-portfolio.netlify.app",
-    id: 1,
+    id: 2,
   },
   {
     title: "Countries App",
@@ -20,7 +29,7 @@ const PROJECTS = [
     description: "Developed a Countries App using HTML, CSS, and JavaScript, featuring dynamic country data display, search functionality, and responsive design for an interactive user experience.",
     gitUrl: "https://github.com/abhikhatri67/Countries-App",
     previewUrl: "https://countries-app-challenge.netlify.app",
-    id: 4,
+    id: 3,
   },
   {
     title: "URL Shortner",
@@ -29,7 +38,7 @@ const PROJECTS = [
     description: "Developed a URL Shortener in JavaScript, enabling users to create and manage shortened URLs with ease and efficiency.",
     gitUrl: "https://github.com/abhikhatri67/Shortly-JS",
     previewUrl: "https://shortly-js.netlify.app",
-    id: 2,
+    id: 4,
   },
   {
     title: "Youtube Clone",
@@ -38,7 +47,7 @@ const PROJECTS = [
     description: "Developed a YouTube Clone using HTML, CSS, and JavaScript, featuring responsive design, dynamic video playback, and interactive user elements to mimic the core functionality of YouTube.",
     gitUrl: "https://github.com/abhikhatri67/youtube-clone",
     previewUrl: "https://youtube-clone-js.netlify.app/",
-    id: 3,
+    id: 5,
   },
   {
     title: "Books Rest",
@@ -47,7 +56,7 @@ const PROJECTS = [
     description: "Developed a book management system using Node.js, Express, and MongoDB.",
     gitUrl: "https://github.com/abhikhatri67/book-rest",
     previewUrl: "/",
-    id: 3,
+    id: 6,
   },
   {
     title: "Books GraphQL",
@@ -56,7 +65,7 @@ const PROJECTS = [
     description: "Developed a book management system using Node.js and GraphQL.",
     gitUrl: "https://github.com/abhikhatri67/GraphQL-Books",
     previewUrl: "/",
-    id: 3,
+    id: 7,
   },
 ];
 
